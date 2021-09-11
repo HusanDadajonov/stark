@@ -600,6 +600,17 @@ nav{
     font-size: 12.5px;
     font-family: 'Roboto', sans-serif;  
 }
+.birthday:hover{
+    color: #d88f0f;
+    cursor: pointer;
+}
+.read-more-link:hover{
+    color: #d88f0f;
+}
+.images-title:hover{
+    color: #d88f0f;
+    cursor: pointer;
+}
 time{
     color: #666;
     font-size: 12.5px;
