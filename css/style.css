@@ -646,3 +646,11 @@ time{
     background: #222;
     color: #fff;
 }
+.services-box{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+}
+.services{
+    background: #f7f7f7;
+    padding: 10px;
+}
