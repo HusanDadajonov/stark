@@ -101,7 +101,6 @@ nav{
 .hero{
     width: 100%;
     height: 100vh;
-    background-color:#b45247;
     margin-top: 15px;
     padding: 255px 0 0 0;
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/modules/rbthemeslider/uploads/home4-slide1.jpg");
@@ -553,4 +552,86 @@ nav{
     color: #fff;
     background-color: #d88f0f;
     border-color: #d88f0f;
+}
+.our-blog-title{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.our-blog-text{
+    text-align: center;
+    margin: 0;
+    color: #666;
+    font-weight: 400;
+    line-height: 23px;
+    font-size: 18px;
+    margin-bottom: 50px;
+    letter-spacing: 0.1px;
+}
+.our-blog-box-img{
+    padding: 0 50px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,510px);
+    grid-gap: 30px;
+}
+.images{
+    width: 100%;
+    height: 320px;
+    overflow: hidden;
+}
+.images img{
+    transform: rotate(0) scale(1);
+    transition: transform 0.4s ease;
+}
+.our-blog-img :hover img{
+    transform: rotate(4deg) scale(1.1);
+}
+.images-title{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    letter-spacing:1px;
+}
+.birthday{
+    text-transform: uppercase;
+    color: #222;
+    font-size: 12.5px;
+    font-family: 'Roboto', sans-serif;  
+}
+time{
+    color: #666;
+    font-size: 12.5px;
+    font-family: 'Roboto', sans-serif;
+}
+.images-text{
+    color: #666;
+    font-size: 17px;
+}
+.read-more-link{ 
+    color: #222;
+    padding-bottom: 3px;
+    font-size: 18px;
+    border-bottom: 1px solid;
+}
+.our-blog{
+    padding: 0 0 90px 0;
+}
+.view-all{
+    display: block;
+    width: 215px;
+    border: 1px solid #999;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px 40px;
+    letter-spacing: 1px;
+    color: #222;
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.view-all:hover{
+    background: #222;
+    color: #fff;
 }
