@@ -100,7 +100,7 @@ nav{
 }
 .hero{
     width: 100%;
-    height: 100vh;
+    min-height: 760px;
     margin-top: 15px;
     padding: 255px 0 0 0;
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/modules/rbthemeslider/uploads/home4-slide1.jpg");
