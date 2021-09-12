@@ -201,12 +201,12 @@ nav{
 }
 .set3::before{
     content: "";
-    position:absolute;
+    position: absolute;
     width: 195px;
-    height: 66px;
+    height: 94px;
     background: #b45247;
     left: 31%;
-    top: -15%;
+    top: -45%;
     z-index: 5;
 }
 .hero-title{
