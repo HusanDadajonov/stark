@@ -250,6 +250,7 @@ nav{
 .order-box{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,351px);
 }
 .orders-text{
     font-family: 'Roboto', sans-serif;
@@ -275,12 +276,29 @@ nav{
     color: #222;
 }
 .order{
-    overflow: hidden;
     position: relative;
+    overflow: hidden;
+}
+.order1{
+    background-image: url("https://rubiktheme.com/demo/rb_stark_demo//img/cms/home3-banner1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.order2{
+    background-image: url("https://rubiktheme.com/demo/rb_stark_demo//img/cms/home3-banner2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+}
+.order3{
+    background-image: url("https://rubiktheme.com/demo/rb_stark_demo//img/cms/home3-banner3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: scale(1.1);
+    transition: all 0.4s ease;
 }
 .orders-img{
-    transform: scale(1);
-    transition: all 0.4s ease;
+   
 }
 .order:hover .orders-img{
     transform: scale(1.1);
