@@ -300,6 +300,9 @@ nav{
     font-family: 'Roboto', sans-serif;
     transform: all 0.4s easy;
 }
+.shop-items:nth-child(1)::after{
+    width: 60%;
+}
 .shop-items::after{
     content: "";
     width: 0;
@@ -506,6 +509,17 @@ nav{
     text-transform: uppercase;
     font-weight: 700;
 }
+.shop-order-text:hover{
+    color: #d88f0f;
+    cursor: pointer;
+}
+.shop-order-title:hover{
+    color: #d88f0f;
+    cursor: pointer;
+}
+.shop-order:nth-child(1) .bxs-star{
+    color: #d88f0f;
+}
 .shop-order-title{
     text-transform: uppercase;
     margin: 0;
@@ -583,9 +597,9 @@ nav{
 }
 .images img{
     transform: rotate(0) scale(1);
-    transition: transform 0.4s ease;
+    transition: transform 1s ease;
 }
-.our-blog-img :hover img{
+.our-blog-box-img:hover img{
     transform: rotate(4deg) scale(1.1);
 }
 .images-title{
@@ -647,8 +661,12 @@ time{
     color: #fff;
 }
 .services-box{
+    padding: 0;
     display: grid;
     grid-template-columns: repeat(6,1fr);
+}
+.services-item{
+    margin-left: 65px;
 }
 .services{
     background: #f7f7f7;
