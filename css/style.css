@@ -200,7 +200,7 @@ nav{
 .set3::before{
     content: "";
     position: absolute;
-    width: 198px;
+    width: 197px;
     height: 70px;
     background: #b45247;
     left: 31%;
