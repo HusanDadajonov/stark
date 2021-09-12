@@ -654,3 +654,102 @@ time{
     background: #f7f7f7;
     padding: 10px;
 }
+footer{
+    background-color: #23282e;
+    padding: 100px 0 30px 0;
+}
+.footer-logo{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.input-box{
+    width: 550px;
+    background-color: #fff;
+    padding: 15px 0 15px 30px;
+}
+.footer-input{
+    width: 370px;
+    padding: 5px 5px 5px 25px;
+    background: none;
+    border: none;
+    border-left: 1px solid #f2f2f2;
+}
+.footer-input:focus{
+    outline: none;
+}
+.footer-input::placeholder{
+    color: #999;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.input-label{
+    margin-right: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    font-family: 'Roboto', sans-serif;
+}
+.subscribe-btn{
+    width: 170px;
+    height:auto;
+    border: none;
+    color: #fff;
+    background-color: #000;
+    font-size: 18px;
+}
+.subscribe-btn:hover{
+    background-color: #d88f0f;
+}
+.big-box{
+    width: 720px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.footer-icons-box{
+    justify-content: center;
+    margin-bottom: 170px;
+}
+.footer-icons .bx{
+    padding: 3px;
+    border-radius:5px;
+    margin-right: 25px;
+    font-size: 25px;
+    color: #23282e;
+    background: #fff;
+}
+.contacts-box{
+    justify-content: center;
+    margin-bottom: 55px;
+}
+.contacts{
+    padding: 0 15px;
+}
+.contacts-link{
+    font-size: 20px;
+    font-family: "Barlow Condensed",sans-serif;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.contacts-link:hover{
+    color: #d88f0f;
+}
+.line{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 1px;
+    background: #393e43;
+    left: 0;
+}
+.cards-box{
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 85px;
+}
+.cards-box a{
+    color: #fff;
+    font-size: 17px;
+    letter-spacing:0.5spx;
+    font-family: "Barlow Condensed",sans-serif;
+}
