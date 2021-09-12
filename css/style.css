@@ -399,11 +399,11 @@ nav{
     background-color: #d88f0f;
 }
 
-.order-contetn:hover .btn-icon{
+.shop-order:hover .btn-icon{
     opacity: 1;
     transform: translate(0,-40%);
 }
-.order-contetn:hover .btn-icon2{
+.shop-order:hover .btn-icon2{
     transition-delay:0.1s ;
 }
 .order-contetn,
@@ -425,7 +425,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box1:hover{
+.shop-order:hover .box1{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/24-home_default/hummingbird-printed-t-shirt.jpg");
 }
 .box2{
@@ -435,7 +435,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box2:hover{
+.shop-order:hover .box2{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/28-home_default/brown-bear-printed-sweater.jpg");
 }
 .box3{
@@ -445,7 +445,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box3:hover{
+.shop-order:hover .box3{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/31-home_default/the-best-is-yet-to-come-framed-poster.jpg");
 }
 .box4{
@@ -455,7 +455,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box4:hover{
+.shop-order:hover .box4{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/34-home_default/the-adventure-begins-framed-poster.jpg");
 }
 .box5{
@@ -465,7 +465,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box5:hover{
+.shop-order:hover .box5{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/37-home_default/today-is-a-good-day-framed-poster.jpg");
 }
 .box6{
@@ -475,7 +475,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box6:hover{
+.shop-order:hover .box6{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/42-home_default/mug-the-best-is-yet-to-come.jpg");
 }
 .box7{
@@ -485,7 +485,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box7:hover{
+.shop-order:hover .box7{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/44-home_default/mug-the-adventure-begins.jpg");
 }
 .box8{
@@ -495,7 +495,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box8:hover{
+.shop-order:hover .box8{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/45-home_default/mug-today-is-a-good-day.jpg");
 }
 .box9{
@@ -505,7 +505,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box9:hover{
+.shop-order:hover .box9{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/54-home_default/mountain-fox-cushion.jpg");
 }
 .box10{
@@ -515,7 +515,7 @@ nav{
     background-position-y: -20px;
     transition:background-image 0.4s ease
 }
-.box10:hover{
+.shop-order:hover .box10{
     background-image: url("https://rubiktheme.com/demo/rb_stark_demo/56-home_default/brown-bear-cushion.jpg");
 }
 .shop-order-text{
