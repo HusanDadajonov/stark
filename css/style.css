@@ -167,9 +167,7 @@ nav{
     animation-fill-mode: both;
 }
 @keyframes hero-text{
-    0%{
-        transform: translate(-115px);
-    }
+   
     100%{
         transform: translate(0);
     }
@@ -223,9 +221,6 @@ nav{
     animation-fill-mode: both;
 }
 @keyframes hero-title{
-    0%{
-        transform: translate(-461px);
-    }
     100%{
         transform: translate(0);
     }
@@ -251,9 +246,6 @@ nav{
     animation-fill-mode: both;
 }
 @keyframes discover-btn{
-    0%{
-        transform: translate(-172px); 
-    }
     100%{
         transform: translate(0);  
     }
