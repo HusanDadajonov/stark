@@ -215,7 +215,7 @@ nav{
     margin: 0;
     margin-bottom: 20px;
     position: relative;
-    transform: translate(-470px);
+    transform: translate(-450px);
     animation-name: hero-title;
     animation-duration: 1s;
     animation-fill-mode: both;
