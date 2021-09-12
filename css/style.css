@@ -162,7 +162,7 @@ nav{
     margin: 0 auto;
     transform: translate(-115px);
     animation-name: hero-text;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     position: relative;
     animation-fill-mode: both;
 }
@@ -219,7 +219,7 @@ nav{
     position: relative;
     transform: translate(-461px);
     animation-name: hero-title;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-fill-mode: both;
 }
 @keyframes hero-title{
@@ -247,7 +247,7 @@ nav{
     position: relative;
     transform: translate(-200px);
     animation-name: discover-btn;
-    animation-duration: 1.5s;
+    animation-duration: 1s;
     animation-fill-mode: both;
 }
 @keyframes discover-btn{
