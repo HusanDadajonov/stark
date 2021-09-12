@@ -215,7 +215,7 @@ nav{
     margin: 0;
     margin-bottom: 20px;
     position: relative;
-    transform: translate(-450px);
+    transform: translate(-461px);
     animation-name: hero-title;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -238,7 +238,7 @@ nav{
     font-family: "harmonia";
     text-align: center;
     border-radius: 3px;
-    transform: translate(-200px);
+    transform: translate(-100px);
     animation-name: discover-btn;
     animation-duration: 1s;
     animation-fill-mode: both;
