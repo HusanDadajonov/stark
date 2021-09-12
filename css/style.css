@@ -201,9 +201,9 @@ nav{
     content: "";
     position: absolute;
     width: 195px;
-    height: 142px;
+    height: 70px;
     background: #b45247;
-    left: 31%;
+    left: 33%;
     top: -25%;
     z-index: 5;
 }
@@ -215,7 +215,7 @@ nav{
     margin: 0;
     margin-bottom: 20px;
     position: relative;
-    transform: translate(-461px);
+    transform: translate(-450px);
     animation-name: hero-title;
     animation-duration: 1s;
     animation-fill-mode: both;
@@ -226,10 +226,9 @@ nav{
     }
 }
 .discover-btn{
-    font-size: 10px;
     color: rgb(255, 255, 255);
     border: 2px solid rgb(255, 255, 255);
-    padding: 12px 27px;
+    padding: 11px 26px;
     font-size: 14px;
     font-weight: 700;
     line-height: 22px;
@@ -239,7 +238,6 @@ nav{
     font-family: "harmonia";
     text-align: center;
     border-radius: 3px;
-    position: relative;
     transform: translate(-200px);
     animation-name: discover-btn;
     animation-duration: 1s;
