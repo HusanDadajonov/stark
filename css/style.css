@@ -15,6 +15,17 @@ body {
     padding: 0;   
     font-family: 'Barlow Condensed', sans-serif;    
 }
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    background-color: #505f74;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #75c435;
+    border-radius: 0;
+    background-image: -webkit-linear-gradient(
+0deg,rgba(255,255,255,.5) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.5) 50%,rgba(255,255,255,.5) 75%,transparent 75%,transparent);
+}
 @font-face {
     font-family: 'Trebuchet';
     font-style: normal;
@@ -250,7 +261,6 @@ nav{
 .order-box{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(1,351px);
 }
 .orders-text{
     font-family: 'Roboto', sans-serif;
@@ -279,26 +289,10 @@ nav{
     position: relative;
     overflow: hidden;
 }
-.order1{
-    background-image: url("https://rubiktheme.com/demo/rb_stark_demo//img/cms/home3-banner1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.order2{
-    background-image: url("https://rubiktheme.com/demo/rb_stark_demo//img/cms/home3-banner2.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1.1);
-}
-.order3{
-    background-image: url("https://rubiktheme.com/demo/rb_stark_demo//img/cms/home3-banner3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    transform: scale(1.1);
-    transition: all 0.4s ease;
-}
+
 .orders-img{
-   
+    transform: scale(1); 
+    transition: transform 0.4s ease;
 }
 .order:hover .orders-img{
     transform: scale(1.1);
@@ -320,6 +314,9 @@ nav{
 }
 .shop-items:nth-child(1)::after{
     width: 60%;
+}
+.shop-items:nth-child(1) a{
+    color: #222;
 }
 .shop-items::after{
     content: "";
