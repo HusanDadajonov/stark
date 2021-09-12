@@ -200,10 +200,10 @@ nav{
 .set3::before{
     content: "";
     position: absolute;
-    width: 195px;
+    width: 198px;
     height: 70px;
     background: #b45247;
-    left: 33%;
+    left: 31%;
     top: -25%;
     z-index: 5;
 }
@@ -238,7 +238,7 @@ nav{
     font-family: "harmonia";
     text-align: center;
     border-radius: 3px;
-    transform: translate(-100px);
+    transform: translate(-150px);
     animation-name: discover-btn;
     animation-duration: 1s;
     animation-fill-mode: both;
